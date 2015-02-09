@@ -1,0 +1,206 @@
+
+/* ==========================================================================
+   General styles
+   ========================================================================== */
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,700&subset=cyrillic-ext,cyrillic)  
+
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  font-family: open-sans, Open Sans, "Segoe UI", "Helvetica Neue Light", Helvetica, sans-serif;
+  background: #333 url(../img/bg.jpg) center center no-repeat fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  color: #fff;
+  font-weight: 300;
+}
+
+a:hover { text-decoration: none; }
+
+img { max-width: 100%; }
+
+/* ==========================================================================
+   Progress bar
+   ========================================================================== */
+   
+.progress {
+  overflow: hidden;
+  margin-bottom: 0;
+  background-color: transparent;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.progress-bar {
+  background-color: #85a85b;
+  color: rgba(255, 255, 255, 0.67);
+  text-align: right;
+  padding-right: 2em;
+}
+
+/* ==========================================================================
+   picture
+   ========================================================================== */
+
+.colelem /* a child element of a column */
+{
+	display: inline;
+	float: left;
+	clear: both;
+}
+
+#u70
+{
+	z-index: 51;
+	width: 512px;
+	height: 270px;
+	border-color: #000000;
+	left: 280px;
+	margin-top: -150px;
+    margin-bottom: 0px;
+	position: relative;
+	background: transparent url("../img/logo.png") no-repeat center;
+  background-size: cover;
+    	
+	-webkit-transition:all 700ms;
+	-o-transition:all 700ms;
+	transition:all 700ms;	
+}
+
+#u70:hover
+{
+    	-webkit-transform:scale(1.02, 1.02);
+	-o-transform:scale(1.02, 1.02);
+	transform:scale(1.02, 1.02);	
+}
+/* ==========================================================================
+   Top Header styles
+   ========================================================================== */
+   
+
+.top-header { margin: 3em 0 1.5em; }
+
+.top-header h1 {
+  font-size: 2.618em;
+  font-weight: 400;
+}
+
+/* ==========================================================================
+   social media styles
+   ========================================================================== */
+   
+.social { padding-bottom: 3em; }
+
+.social p {
+  font-size: 1.5em;
+  color: #bbb;
+}
+
+.social-icons {
+  list-style: none;
+  padding-left: 0;
+}
+
+.social-icons li {
+  display: inline-block;
+  padding-right: 1em;
+}
+
+.social-icons li:last-child { padding-right: 0; }
+
+.social-icons a { color: #85a85b;
+
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;}
+
+.social-icons a:hover { color: #91ba60;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);}
+
+.fa-2x { font-size: 1.5em; }
+
+/* ==========================================================================
+   Small devices (tablets, 768px and up)
+   ========================================================================== */
+@media (min-width: 1020px) {
+    .top-header {
+        top: -160px;
+        position: relative;
+        display: table;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 0px;
+        padding-top: 250px;
+    }
+    .top-header #u70
+{
+    top: 0;
+	left: 0;
+    right: 0;
+	/*margin-top: 0px;*/
+	position: absolute;
+    display: table;
+    margin: 0 auto;
+}
+}
+@media screen and (max-width: 992px) {
+    .top-header {
+        top: 0;
+        padding: 0;
+        position: relative;
+        display: table;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .top-header #u70
+{
+	width: 256px;
+	height: 135px;
+	left: 0;
+    right: 0;
+	/*margin-top: 0px;*/
+	position: absolute;
+    display: table;
+    margin: 0 auto;
+}
+    .top-header h1 {
+   	margin-top: 150px;
+  font-size: 3.236em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+}
+
+@media (min-width: 768px) {
+
+.top-header { margin: 7.5em 0 1.5em; }
+
+.top-header h1 {
+  font-size: 3.236em;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+}
+
+/* ==========================================================================
+   Medium devices (desktops, 992px and up)
+   ========================================================================== */
+
+@media (min-width: 992px) {
+
+.top-header { margin: 13.5em 0 3em; }
+
+.top-header h1 { font-size: 4.236em; }
+}

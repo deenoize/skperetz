@@ -1,0 +1,215 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,700&subset=cyrillic-ext,cyrillic);
+
+#u155
+{
+	border-color: #000000;
+	background-color: #313232;
+	position: fixed;
+}
+
+#u157
+{
+	border-color: #000000;
+	background-color: #313232;
+	position: relative;
+}
+
+#u158
+{
+	border-color: #000000;
+	position: relative;
+	background: transparent url("../images/navlogo.png") no-repeat center center;
+}
+
+#u165,#menuu166
+{
+	position: fixed;
+}
+
+#u211-4
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	color: #E1E1E1;
+	text-align: left;
+	font-family: Open Sans, sans-serif;
+	font-weight: 600;
+	position: relative;
+}
+
+#u209:hover #u211-4 p
+{
+	color: #959595;
+	visibility: inherit;
+}
+
+#u223-4
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	color: #E1E1E1;
+	text-align: left;
+	font-family: Open Sans, sans-serif;
+	font-weight: 600;
+	position: relative;
+}
+
+#u222:hover #u223-4 p
+{
+	color: #959595;
+	visibility: inherit;
+}
+
+#u230-4
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	color: #E1E1E1;
+	text-align: left;
+	font-family: Open Sans, sans-serif;
+	font-weight: 600;
+	position: relative;
+}
+
+#u227:hover #u230-4 p
+{
+	color: #959595;
+	visibility: inherit;
+}
+
+#u255
+{
+	border-color: #777777;
+	background-color: #e84735;
+	position: relative;
+}
+
+#u255:hover
+{
+	background-color: #e84735;
+}
+
+#u257-4
+{
+	background-color: transparent;
+	text-align: center;
+	color: #313232;
+	font-size: 14px;
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u255:hover #u257-4 p
+{
+	color: #E1E1E1;
+	visibility: inherit;
+}
+
+#u273
+{
+	border-color: #777777;
+	background-color: #e84735;
+	position: relative;
+}
+
+#u255.MuseMenuActive,#u273.MuseMenuActive
+{
+	background-color: #313232;
+}
+
+#u274-4
+{
+	background-color: transparent;
+	color: #313232;
+	text-align: center;
+	font-family: Open Sans, sans-serif;
+	font-weight: 400;
+	position: relative;
+}
+
+#u255.MuseMenuActive #u257-4 p,#u273:hover #u274-4 p
+{
+	color: #E1E1E1;
+	visibility: inherit;
+}
+
+#u273.MuseMenuActive #u274-4 p
+{
+	color: #E1E1E1;
+	visibility: inherit;
+}
+
+#u236-4
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	color: #E1E1E1;
+	text-align: left;
+	font-family: Open Sans, sans-serif;
+	font-weight: 600;
+	position: relative;
+}
+
+#u234:hover #u236-4 p
+{
+	color: #959595;
+	visibility: inherit;
+}
+
+#u245-4
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	color: #E1E1E1;
+	text-align: left;
+	font-family: Open Sans, sans-serif;
+	font-weight: 600;
+	position: relative;
+}
+
+#u243:hover #u245-4 p
+{
+	color: #959595;
+	visibility: inherit;
+}
+
+#u208,#u209,#u219,#u222,#u226,#u227,#u232,#u254,#u270,#u233,#u234,#u240,#u243,#u247,#u248
+{
+	position: relative;
+}
+
+#u251-4
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	color: #E1E1E1;
+	text-align: left;
+	font-family: Open Sans, sans-serif;
+	font-weight: 600;
+	position: relative;
+}
+
+#u248:hover #u251-4 p
+{
+	color: #959595;
+	visibility: inherit;
+}
+
+#u209.MuseMenuActive #u211-4 p,#u222.MuseMenuActive #u223-4 p,#u227.MuseMenuActive #u230-4 p,#u234.MuseMenuActive #u236-4 p,#u243.MuseMenuActive #u245-4 p,#u248.MuseMenuActive #u251-4 p
+{
+	color: #e84735;
+	visibility: inherit;
+}
+
+.MenuItem /* unifiedNavBar */
+{
+	cursor: pointer;
+}
+
