@@ -2842,7 +2842,7 @@
     border-color: #000000;
     position: relative;
     margin-right: -10000px;
-    background: #FFFFFF url("../images/roma_s.jpg") no-repeat center center;
+    background: #FFFFFF url("../images/syacha_s.jpg") no-repeat center center;
     background-size: cover !important;
 }
 
@@ -2855,7 +2855,7 @@
     position: relative;
     margin-right: -10000px;
     left: 280px;
-    background: #FFFFFF url("../images/serg_s.jpg") no-repeat center top;
+    background: #FFFFFF url("../images/roma_s.jpg") no-repeat center top;
     background-size: cover !important;
 }
 
@@ -2868,7 +2868,7 @@
     position: relative;
     margin-right: -10000px;
     left: 560px;
-    background: #FFFFFF url("../images/kirill_s.jpg") no-repeat right center;
+    background: #FFFFFF url("../images/anita_l.jpg") no-repeat right center;
     background-size: cover !important;
 }
 
@@ -5415,7 +5415,7 @@
     font-family: open-sans, sans-serif;
     font-weight: 400;
     position: fixed;
-    top: 5745px;
+    top: 5595px;
     left: 160px;
 }
 
@@ -5428,7 +5428,7 @@
     background-color: #e84735;
     position: fixed;
     margin-top: 60px;
-    top: 6162px;
+    top: 6012px;
     left: 660px;
 }
 
