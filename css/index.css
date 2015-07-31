@@ -451,14 +451,33 @@
     min-height: 80px;
     margin-right: -10000px;
 }
-
+#u208time
+{
+    margin-left: -150px;
+    margin-top: -10px;
+    width: 94px;
+    min-height: 80px;
+    margin-right: -10000px;
+}
 #u209
 {
     width: 94px;
     padding-bottom: 63px;
 }
+#u209time
+{
+    width: 94px;
+    padding-bottom: 73px;
+}
 
 #u211-4
+{
+    width: 54px;
+    min-height: 17px;
+    margin-right: -10000px;
+    top: 31px;
+}
+#u211-4time
 {
     width: 54px;
     min-height: 17px;
@@ -1797,7 +1816,7 @@
     border-width: 2px;
     border-style: solid;
     border-color: #e84735;
-    background-color: transparent;
+    background-color: #e84735;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     -khtml-border-radius: 10px;
@@ -1815,15 +1834,20 @@
     padding-left: 40px;
     padding-top: 35px;
     text-align: left;
-    color: #e84735;
+    color: #ffffff;
     line-height: 24px;
     font-size: 20px;
     font-family: open-sans, sans-serif;
-    font-weight: 400;
+    font-weight: 800;
     position: relative;
     margin-right: -10000px;
     margin-top: -1px;
     left: -2px;
+}
+
+#u599-4 > p
+{
+    color: #ffffff
 }
 
 #u600-4
@@ -1850,7 +1874,7 @@
     min-height: 26px;
     border-width: 2px;
     border-style: solid;
-    border-color: #e84735;
+    border-color: #ffffff;
     background-color: transparent;
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -1858,7 +1882,7 @@
     border-radius: 10px;
     padding-top: 10px;
     text-align: center;
-    color: #e84735;
+    color: #ffffff;
     line-height: 14px;
     font-size: 14px;
     font-family: open-sans, sans-serif;
@@ -1868,10 +1892,14 @@
     margin-top: 40px;
     left: 642px;
 }
+#u603-4 > p > a
+{
+    color: #ffffff;
+}
 
 #u603-4:hover
 {
-    border-color: #313232;
+    border-color: #ffffcc;
     padding-top: 10px;
     padding-bottom: 0px;
     min-height: 26px;
@@ -1881,7 +1909,7 @@
 
 #u603-4:active
 {
-    border-color: #959595;
+    border-color: #ffffff;
     padding-top: 10px;
     padding-bottom: 0px;
     min-height: 26px;
@@ -2517,6 +2545,23 @@
 }
 
 #u714-4
+{
+    z-index: 296;
+    width: 400px;
+    min-height: 0px;
+    padding-left: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #313232;
+    line-height: 21px;
+    text-align: left;
+    font-family: open-sans, sans-serif;
+    font-weight: 400;
+    position: relative;
+}
+
+
+#u714-4new
 {
     z-index: 296;
     width: 400px;

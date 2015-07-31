@@ -37,6 +37,17 @@
 	font-weight: 600;
 	position: relative;
 }
+#u211-4time
+{
+	border-style: none;
+	border-color: transparent;
+	background-color: transparent;
+	color: #E1E1E1;
+	text-align: left;
+	font-family: Open Sans, sans-serif;
+	font-weight: 600;
+	position: relative;
+}
 
 #u209:hover #u211-4 p
 {

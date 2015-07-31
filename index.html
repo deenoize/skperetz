@@ -19,22 +19,28 @@
 		<link rel="stylesheet" type="text/css" href="css/fxfullwidth.css" />
 		<script src="js/modernizr.custom.js"></script>
      <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/ns-default.css"/>
+  <link rel="stylesheet" type="text/css" href="css/ns-style-other.css"/>
   <!-- JS includes -->
   <script type="text/javascript">
    document.write('\x3Cscript src="' + (document.location.protocol == 'https:' ? 'https:' : 'http:') + '//webfonts.creativecloud.com/open-sans:n4:all;montserrat:n4:all.js" type="text/javascript">\x3C/script>');
 </script>
    </head>
  <body>
-
+ <div class="notification-shape shape-box" id="notification-shape" data-path-to="m 0,0 500,0 0,500 -500,0 z">
+  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 500 500" preserveAspectRatio="none">
+   <path d="m 0,0 500,0 0,500 0,-500 z"/>
+  </svg>
+ </div>
   <div class="clearfix" id="page"><!-- column -->
    <div class="position_content" id="page_position_content">
     <div class="clearfix colelem" id="pu77"><!-- group -->
-     <div class="browser_width grpelem" id="u77"><!-- column -->
+        <div class="browser_width grpelem" id="u77">
       <div class="clearfix" id="u77_align_to_page">
        <a class="anchor_item colelem" id="home"></a>
        <div class="colelem" id="u70"><!-- simple frame --></div>
        <div class="rounded-corners clearfix colelem" id="u139-4"><!-- content -->
-       <a href="index.html#u599-4">КЛУБНЫЕ КАРТЫ</a>
+       <a id="notification-trigger" href="index.html#u599-4">КЛУБНЫЕ КАРТЫ</a>
        </div>
       </div>
      </div>
@@ -79,7 +85,7 @@
           <p>НЕ ЛЕНИСЬ</p>
          </div>
          <div class="clearfix colelem" id="u137-4"><!-- content -->
-          <p>ПРИСЕДАЙ !</p> 
+          <p>ПРИСЕДАЙ !</p>
          </div>
          <div class="clearfix colelem" id="u136-4"><!-- content -->
           <p>ДУШЕВНО</p>
@@ -99,6 +105,9 @@
       </div>
      </div>
      <ul class="MenuBar clearfix se_invi" id="menuu166"><!-- horizontal box -->
+      <li class="MenuItemContainer clearfix grpelem" id="u208time"><!-- vertical box -->
+       <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u209time" href="#"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u211-4time"><!-- content --><p>ПН-СБ с 7 до 22<br>ВС с 9 до 21</p></div></a>
+      </li>
       <li class="MenuItemContainer clearfix grpelem" id="u208"><!-- vertical box -->
        <a class="nonblock nontext MenuItem MenuItemWithSubMenu anim_swing clearfix colelem" id="u209" href="index.html#about"><!-- horizontal box --><div class="MenuItemLabel NoWrap clearfix grpelem" id="u211-4"><!-- content --><p>О НАС</p></div></a>
       </li>
@@ -384,7 +393,7 @@
          <p>2 ЧЕЛОВЕКА 30 МИНУТ &#45; 250 руб.</p><br>
          <p>3 ЧЕЛОВЕКА 30 МИНУТ &#45; 350 руб.</p>
         </div>
-        <div class="clearfix colelem" id="u714-4"><!-- content -->
+        <div class="clearfix colelem" id="u714-4new"><!-- content -->
          <p>* Услуга действует только для членов спортивного <br> клуба Перец</p>
         </div>
        </div>
@@ -678,7 +687,6 @@
        <div class="clearfix colelem" id="pu1110"><!-- group -->
  <ul class="social-icons">
         <li><a href="http://vk.com/perets.sport"><i class="fa fa-vk fa-3x"></i></a></li>
-        <li><a href="http://www.facebook.com/perets.sk"><i class="fa fa-facebook fa-3x"></i></a></li>
         <li><a href="http://instagram.com/perets_sport_club"><i class="fa fa-instagram fa-3x"></i></a></li>
         <li><a href="http://vk.com/perets.sport?w=wall233612808_330%2Fall"><i class="fa fa-phone fa-3x"></i></a></li>
         <li><a href="http://www.youtube.com/channel/UCV74aded1auGEGUZFtmJ1OQ"><i class="fa fa-youtube fa-3x"></i></a></li>
@@ -802,21 +810,84 @@ Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 } catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
 </script>
-     
-<script src="js/classie.js"></script>
 <script src="js/main.js"></script>
-     
-<script type="text/javascript">(function(w,doc) {
-if (!w.__utlWdgt ) {
-    w.__utlWdgt = true;
-    var d = doc, s = d.createElement('script'), g = 'getElementsByTagName';
-    s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
-    s.src = ('https:' == w.location.protocol ? 'https' : 'http')  + '://w.uptolike.com/widgets/v1/uptolike.js';
-    var h=d[g]('body')[0];
-    h.appendChild(s);
-}})(window,document);
-</script>
-<div data-share-size="30" data-like-text-enable="false" data-background-alpha="0.0" data-pid="1302101" data-mode="share" data-background-color="#ffffff" data-hover-effect="rotate-cw" data-share-shape="rectangle" data-share-counter-size="12" data-icon-color="#ffffff" data-text-color="#000000" data-buttons-color="#FFFFFF" data-counter-background-color="#ffffff" data-share-counter-type="common" data-orientation="fixed-right" data-following-enable="true" data-sn-ids="fb.vk.tw.ok." data-selection-enable="true" data-exclude-show-more="true" data-share-style="1" data-follow-vk="perets.sport" data-counter-background-alpha="1.0" data-top-button="false" data-follow-fb="pages/Перец-Спортивный-Клуб/1430522020568660" class="uptolike-buttons" ></div>
+  <script src="js/classie.js"></script>
+  <script src="js/notificationFx.js"></script>
+  <script src="js/snap.svg-min.js"></script>
+  <script>
+   (function() {
+    var svgshape = document.getElementById( 'notification-shape' ),
+            s = Snap( svgshape.querySelector( 'svg' ) ),
+            path = s.select( 'path' ),
+            pathConfig = {
+             from : path.attr( 'd' ),
+             to : svgshape.getAttribute( 'data-path-to' )
+            },
+            bttn = document.getElementById( 'notification-trigger' );
+
+    // make sure..
+    bttn.disabled = false;
+
+       // create the notification
+       var notification = new NotificationFx({
+           ttl: 60000,
+           wrapper : svgshape,
+           message : '<p><span class="icon icon-bulb"></span> ВЕСЬ АВГУСТ !!! <br> Месяц персонального тренинга в СК "Перец": <br><br> При покупке абонемента на 3 месяца дарим 4 персональные тренировки (3200р.) в подарок <br><br> При покупке абонемента на 6 месяца дарим 8 персональных тренировок (6400р.) в подарок <br><br> При покупке абонемента на 12 месяца дарим 24 персональные тренировки (19200р.) в подарок <br><br> Подробности по тел: 22-58-58!</a></p>',
+           layout : 'other',
+           effect : 'cornerexpand',
+           type : 'notice', // notice, warning or error
+           onClose : function() {
+               bttn.disabled = false;
+               setTimeout(function() {
+                   path.animate( { 'path' : pathConfig.from }, 0, mina.easeinout );
+               }, 0 );
+           }
+       });
+
+       // show the notification
+       notification.show();
+   })();
+  </script>
+
+  <script>
+   (function() {
+    var bttn = document.getElementById( 'notification-trigger' );
+
+    // make sure..
+    bttn.disabled = false;
+
+     // create the notification
+     var notification = new NotificationFx({
+      message : '<p><a href="http://tobiasahlin.com/spinkit/">3D-тур по клубу</a></p>',
+      layout : 'other',
+      effect : 'boxspinner',
+      ttl : 60000,
+      type : 'notice', // notice, warning or error
+      onClose : function() {
+       bttn.disabled = false;
+       setTimeout(function() {
+        path.animate( { 'path' : pathConfig.from }, 0, mina.easeinout );
+       }, 0 );
+      }
+     });
+
+     // show the notification
+     notification.show();
+   })();
+  </script>
+
+
+  <script type="text/javascript">(function(w,doc) {
+      if (!w.__utlWdgt ) {
+          w.__utlWdgt = true;
+          var d = doc, s = d.createElement('script'), g = 'getElementsByTagName';
+          s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+          s.src = ('https:' == w.location.protocol ? 'https' : 'http')  + '://w.uptolike.com/widgets/v1/uptolike.js';
+          var h=d[g]('body')[0];
+          h.appendChild(s);
+      }})(window,document);
+  </script>
+  <div data-share-size="30" data-like-text-enable="false" data-background-alpha="0.0" data-pid="1302101" data-mode="share" data-background-color="#ffffff" data-hover-effect="rotate-cw" data-share-shape="rectangle" data-share-counter-size="12" data-icon-color="#ffffff" data-text-color="#000000" data-buttons-color="#ffffff" data-counter-background-color="#ffffff" data-share-counter-type="common" data-orientation="fixed-left" data-following-enable="true" data-sn-ids="fb.vk.tw.ok." data-selection-enable="true" data-exclude-show-more="true" data-share-style="1" data-follow-vk="perets.sport" data-counter-background-alpha="1.0" data-top-button="false" class="uptolike-buttons" ></div>
  <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
