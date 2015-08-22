@@ -266,7 +266,11 @@
 .ns-effect-boxspinner a {
 	color: #ffffff;
 	padding: 5px;
+	display: inline-block;
+	text-align: center;
+	font-size: 14px;
 }
+
 
 .ns-effect-boxspinner a:hover {
 	color: #F1463D;
