@@ -27,15 +27,18 @@
 </script>
    </head>
  <body>
- <div class="notification-shape shape-box" id="notification-shape" data-path-to="m 0,0 500,0 0,500 -500,0 z">
-  <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 500 500" preserveAspectRatio="none">
-   <path d="m 0,0 500,0 0,500 0,-500 z"/>
-  </svg>
- </div>
+
   <div class="clearfix" id="page"><!-- column -->
    <div class="position_content" id="page_position_content">
     <div class="clearfix colelem" id="pu77"><!-- group -->
         <div class="browser_width grpelem" id="u77">
+
+           <div class="notification-shape shape-box" id="notification-shape" data-path-to="m 0,0 500,0 0,500 -500,0 z">
+            <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 500 500" preserveAspectRatio="none">
+                <path d="m 0,0 500,0 0,500 0,-500 z"/>
+            </svg>
+        </div>
+
       <div class="clearfix" id="u77_align_to_page">
        <a class="anchor_item colelem" id="home"></a>
        <div class="colelem" id="u70"><!-- simple frame --></div>
@@ -328,10 +331,10 @@
        <div class="AccordionPanelContent clearfix colelem" id="u624"><!-- group -->
         <div class="clearfix grpelem" id="u645"><!-- column -->
          <div class="clearfix colelem" id="u647-4"><!-- content -->
-          <p>1 МЕСЯЦ &#45; 3 600 руб.</p><br>
-          <p>3 МЕСЯЦА &#45; 7 700 руб.</p><br>
-          <p>6 МЕСЯЦЕВ &#45; 9 999 руб.</p><br>
-          <p>12 МЕСЯЦЕВ &#45; 14 999 руб.</p><br><br>
+          <p>1 МЕСЯЦ &#45; 3600 руб. (одна тренировка &#45; 120 руб.)</p><br>
+          <p>3 МЕСЯЦА &#45; 7700 руб. (одна тренировка &#45; 86 руб.)</p><br>
+          <p>6 МЕСЯЦЕВ &#45; 13700 руб. (одна тренировка &#45; 76 руб.)</p><br>
+          <p>12 МЕСЯЦЕВ &#45; 24100 руб. (одна тренировка &#45; 66 руб.)</p><br>
          </div>
          <div class="clearfix colelem" id="u646-4"><!-- content -->
           <p>* неограниченное количество тренировок только в тренажерном зале</p>
@@ -361,7 +364,7 @@
        </div>
        <div class="AccordionPanelContent disn clearfix colelem" id="u682"><!-- column -->
         <div class="clearfix colelem" id="u687-4"><!-- content -->
-         <p>1 ЗАНЯТИЕ &#45; 400 руб. (в выходные 200 руб.)</p><br>
+         <p>1 ЗАНЯТИЕ &#45; 400 руб.</p><br>
          <p>4 ЗАНЯТИЯ &#45; 1520 руб. (одна тренировка &#45; 380 руб.)</p><br>
          <p>8 ЗАНЯТИЙ &#45; 2640 руб. (одна тренировка &#45; 330 руб.)</p><br>
         </div>
@@ -408,7 +411,7 @@
        <p>ДЛЯ ШКОЛЬНИКОВ И СТУДЕНТОВ</p>
       </div>
       <div class="clearfix colelem" id="u714-4"><!-- content -->
-          <p>* действует только на клубную карту 1 месяц при посещении с 7-00 до 16-00</p>
+          <p>* действует только на клубную карту 1 месяц при посещении с 7-00 до 17-00</p>
         </div>
       <div class="rounded-corners clearfix colelem" id="u717-4"><!-- content -->
        <p><a href="index.html#contactus">ПОЛУЧИТЬ СКИДКУ</a></p>
@@ -431,7 +434,7 @@
           <div class="clearfix colelem" id="pu790"><!-- group -->
            <div class="museBGSize grpelem" id="u790"><!-- simple frame --></div>
            <div class="museBGSize grpelem" id="u782"><!-- simple frame --></div>
-           <div class="museBGSize grpelem" id="u840"><!-- simple frame --></div>
+           <div class="museBGSize grpelem" id="u783"><!-- simple frame --></div>
           </div>
           <div class="clearfix colelem" id="pu780-4"><!-- group -->
            <div class="clearfix grpelem" id="u780-4"><!-- content -->
@@ -441,7 +444,7 @@
             <p>РОМАН СТУПНИКОВ</p>
            </div>
            <div class="clearfix grpelem" id="u786-4"><!-- content -->
-            <p>САМЫЙ ЛУЧШИЙ ТРЕНЕР</p>
+            <p>ВИКТОРИЯ ЧЕРНОВА</p>
            </div>
           </div>
           <div class="clearfix colelem" id="pu789-4"><!-- group -->
@@ -452,7 +455,7 @@
             <p>"ПЕРЕЦ" ПАУЭРЛИФТИНГА</p>
            </div>
            <div class="clearfix grpelem" id="u787-4"><!-- content -->
-            <p></p>
+            <p>БОДИ "ПЕРЧИНКА"</p>
            </div>
           </div>
           <div class="clearfix colelem" id="pu784-4"><!-- group -->
@@ -810,72 +813,11 @@ Muse.Utils.showWidgetsWhenReady();/* body */
 Muse.Utils.transformMarkupToFixBrowserProblems();/* body */
 } catch(e) { Muse.Assert.fail('Error calling selector function:' + e); }});
 </script>
+
+<script src="js/classie.js"></script>
 <script src="js/main.js"></script>
-  <script src="js/classie.js"></script>
   <script src="js/notificationFx.js"></script>
   <script src="js/snap.svg-min.js"></script>
-  <script>
-   (function() {
-    var svgshape = document.getElementById( 'notification-shape' ),
-            s = Snap( svgshape.querySelector( 'svg' ) ),
-            path = s.select( 'path' ),
-            pathConfig = {
-             from : path.attr( 'd' ),
-             to : svgshape.getAttribute( 'data-path-to' )
-            },
-            bttn = document.getElementById( 'notification-trigger' );
-
-    // make sure..
-    bttn.disabled = false;
-
-       // create the notification
-       var notification = new NotificationFx({
-           ttl: 60000,
-           wrapper : svgshape,
-           message : '<p><span class="icon icon-bulb"></span>Перчики и Перчинки!<br>Новые акции этого сезона<br><br>"Летнее утро" - 3 месяца с 7-00 до 10-00 за 4 999 руб<br><br>"Пока все на работе" - 1 месяц с 7-00 до 16-00 за 1 999 руб<br><br>До встречи на тренировках!<br>22-58-58</a></p>',
-           layout : 'other',
-           effect : 'cornerexpand',
-           type : 'notice', // notice, warning or error
-           onClose : function() {
-               bttn.disabled = false;
-               setTimeout(function() {
-                   path.animate( { 'path' : pathConfig.from }, 0, mina.easeinout );
-               }, 0 );
-           }
-       });
-
-       // show the notification
-       notification.show();
-   })();
-  </script>
-
-  <script>
-   (function() {
-    var bttn = document.getElementById( 'notification-trigger' );
-
-    // make sure..
-    bttn.disabled = false;
-
-     // create the notification
-     var notification = new NotificationFx({
-      message : '<p><a href="3d/tournew.html">3D-тур <i class="fa fa-eye fa-5x"></i><br> по клубу</a></p>',
-      layout : 'other',
-      effect : 'boxspinner',
-      ttl : 60000,
-      type : 'notice', // notice, warning or error
-      onClose : function() {
-       bttn.disabled = false;
-       setTimeout(function() {
-        path.animate( { 'path' : pathConfig.from }, 0, mina.easeinout );
-       }, 0 );
-      }
-     });
-
-     // show the notification
-     notification.show();
-   })();
-  </script>
-
 
   <script type="text/javascript">(function(w,doc) {
       if (!w.__utlWdgt ) {
